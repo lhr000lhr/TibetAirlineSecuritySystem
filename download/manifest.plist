@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://apppublish.coding.me/TibetAirlineSecuritySystem/download/icon.ipa</string>
+					<string>https://apppublish.coding.me/TibetAirlineSecuritySystem/download/icon57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://apppublish.coding.me/TibetAirlineSecuritySystem/download/icon.ipa</string>
+					<string>https://apppublish.coding.me/TibetAirlineSecuritySystem/download/icon512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -35,7 +35,7 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>DvaStarter</string>
+				<string>藏航密码验证</string>
 			</dict>
 		</dict>
 	</array>
