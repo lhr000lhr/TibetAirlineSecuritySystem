@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DvaStarter.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>787E839A8F0F2FFA6FBFBBF2B5F4BB914BD67050</string>
+				<key>dateExpires</key>
+				<string>09/01/2021</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>LA39SL2BKA.com.tydic.tibetairline.passwordmanage</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>LA39SL2BKA</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>DvaStarter.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>69bdac89-3451-44da-9fa8-0753654a7ee0</string>
+				<key>name</key>
+				<string>iOS Team Inhouse Provisioning Profile: com.tydic.tibetairline.passwordmanage</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>LA39SL2BKA</string>
+				<key>name</key>
+				<string>Tibetairlines Co., Ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
