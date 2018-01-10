@@ -9,9 +9,9 @@
 		<key>appURL</key>
 		<string>https://apppublish.coding.me/TibetAirlineSecuritySystem/download/DvaStarter.ipa</string>
 		<key>displayImageURL</key>
-		<string>https://apppublish.coding.me/TibetAirlineSecuritySystem/download/icon.png</string>
+		<string>https://apppublish.coding.me/TibetAirlineSecuritySystem/download/icon57.png</string>
 		<key>fullSizeImageURL</key>
-		<string>https://apppublish.coding.me/TibetAirlineSecuritySystem/download/icon.png</string>
+		<string>https://apppublish.coding.me/TibetAirlineSecuritySystem/download/icon512.png</string>
 	</dict>
 	<key>method</key>
 	<string>enterprise</string>
