@@ -1,1 +1,69 @@
-hello
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="apple-itunes-app" content="app-id=1254360198, app-argument=cloudmeeting://start?from=web">
+        <meta name="viewport" content="user-scalable=no" />
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="top">
+                <!-- <div class="tip">在浏览器中打开，即可安装</div> -->
+            </div>
+            <div class="info">
+                <div class="icon">
+                    <img class="iconImg" src="./img/logo.png">
+                </div>
+                <div class="title1">西藏航空用户安全密码管理系统</div>
+            </div>
+            <div class="code">
+                <div class="codeContainer">
+                    <div class="codeContent"></div>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="download">点击安装</button>
+            </div>
+        </div>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery_session.js"></script>
+    <script src="mui.min.js"></script>
+    <script type="text/javascript" src="utf.js"></script>
+    <script type="text/javascript" src="jquery.qrcode.min.js"></script>
+    <script>
+        //判断是否微信登陆
+        mui.init();
+        $(function(){
+            function downloadApp() {
+                var downAppURl = "itms-services:///?action=download-manifest&url=https://apppublish.coding.me/TibetAirlineSecuritySystem/download/manifest.plist";
+                mui.openWindow(downAppURl)
+
+            }
+            //判断打开浏览器
+            if(mui.os.wechat) {
+                $(".top").css("background","url(./img/top.png) no-repeat");
+                $(".top").css("background-size","100% 100%");
+                $(".download").click(function(){
+                    alert("请在系统浏览器中下载！");
+                });
+            } else {
+                $(".download").click(function(){
+                    downloadApp();
+                })
+            }
+            //生成二维码
+            $(".codeContent").qrcode({ 
+                render: "canvas", //table方式 
+                width: 350, //宽度 
+                height:335, //高度 
+                text: window.location.href, //任意内容 
+                foreground:"#2e3093",
+                src: './img/logo.png'
+            });
+        })
+    </script>
+    </body>
+</html>
